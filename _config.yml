@@ -3,6 +3,7 @@
 title:            Atmospheric Spectroscopy Laboratory
 locale:           en_US
 url:              http://strow.github.io
+#url:              http://localhost:4000
 
 
 # Jekyll configuration
@@ -27,7 +28,7 @@ kramdown:
 # Site owner
 owner:
   name: ASL Team
-  avatar: JCET_logo.png
+  avatar: JCET_logo_small.jpg
   bio: "UMBC/Physics UMBC/JCET"
   email: strow@umbc.edu
   disqus-shortname: 
