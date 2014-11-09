@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Atmospheric Spectroscopy Laboratory
 locale:           en_US
 url:              http://localhost:4000
 
@@ -26,21 +26,21 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  name: ASL Team
+  avatar: JCET_logo.png
+  bio: "UMBC/Physics UMBC/JCET"
+  email: strow@umbc.edu
   disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  twitter: 
+  facebook: 
   google:
-    plus: #username
+    plus: strow@umbc.edu
     analytics: 
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: strow
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
