@@ -1,0 +1,24 @@
+---
+layout: page
+title: "L. Larrabee Strow<br>Research Professor of Physics"
+date: 2012-12-17 11:16
+---
+![who](/images/strow/Strow.jpg) 
+
+<br>
+
+I lead the Atmospheric Spectroscopy Laboratory ([ASL](/index.html))
+group at UMBC.  We are also affiliated with the UMBC/NASA Joint Center
+for Earth Systems Technology ([JCET](http://jcet.umbc.edu)).  Our
+research centers on the development and use of high-spectral
+resolution infrared satellite sounders.  These relatively new
+instruments provide critical observational information to numerical
+weather prediction centers for preparing forecasts, while also
+providing new space-borne global measurements of various minor
+constituents (carbon monoxide, methane, dust, volcanic ash and sulpher
+dioxide, carbon dioxide).  ASL participated in the development of all
+three existing hyperspectral sounders (AIRS, IASI, and CrIS),
+especially with regard to the pre- and post-launch calibration of the
+two U.S. instruments (AIRS, CrIS).  Our current research centers on
+using these sensors for global measurements of climate change. 
+
