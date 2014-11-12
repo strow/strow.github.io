@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "L. Larrabee Strow<br>Research Professor of Physics"
+title: "L. Larrabee Strow<br><h2> Research Professor of Physics</h2>"
 date: 2012-12-17 11:16
 ---
-![who](/images/strow/Strow.jpg) 
+![L. Strow](/images/strow/Strow.jpg) 
 
 <br>
 
@@ -20,5 +20,5 @@ dioxide, carbon dioxide).  ASL participated in the development of all
 three existing hyperspectral sounders (AIRS, IASI, and CrIS),
 especially with regard to the pre- and post-launch calibration of the
 two U.S. instruments (AIRS, CrIS).  Our current research centers on
-using these sensors for global measurements of climate change. 
+using these sensors for global measurements of climate change.
 

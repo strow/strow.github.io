@@ -8,9 +8,10 @@ body {
 	padding: 2em 0 1em;
 	font-family: $heading-font;
 	font-weight: 700;
-	background: lighten($black, 75);
-	border: 2px solid;
-	border-bottom: 3px solid;
+	font-weight: 700;
+	background: lighten($black, 85);
+	border: 1px solid;
+	border-bottom: 2px solid;
 	text-transform: uppercase;
 	@include clearfix;
 }
@@ -18,8 +19,6 @@ body {
 	@include grid(12,10);
 	@include prefix(12,1);
 	@include suffix(12,1);
-	margin-bottom: -0.5em;
-	margin-top: -1.0em;
 	float: none;
 	display: block;
 	@include font-rem(24);
@@ -27,7 +26,17 @@ body {
 		@include grid(12,2);
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
-		@include font-rem(18);
+		@include font-rem(16);
+          	margin-bottom: -1em;
+          	margin-top: -1.5em;
+	}
+	@media #{$medium} {
+		@include grid(12,2);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+		@include font-rem(16);
+          	margin-bottom: -0.5em;
+          	margin-top: -1.5em;
 	}
 	@media #{$x-large} {
 		@include grid(12,1.5);
@@ -38,14 +47,22 @@ body {
 	@include grid(12,10);
 	@include prefix(12,1);
 	@include suffix(12,1);
-	margin-top: -1.5em;
-	margin-bottom: -1em;
+	margin-bottom: 1em;
 	float: none;
 	display: block;
 	@media #{$small} {
 		@include grid(12,9);
 		@include prefix(12,0);
 		@include suffix(12,0);
+          	margin-bottom: -0.5em;
+          	margin-top: -1.5em;
+	}
+	@media #{$medium} {
+		@include grid(12,9);
+		@include prefix(12,0);
+		@include suffix(12,0);
+          	margin-bottom: -0.5em;
+          	margin-top: -1.5em;
 	}
 	@media #{$x-large} {
 		@include grid(12,8);
@@ -213,7 +230,7 @@ $button-size: 1.5rem;
 	clear: both;
 	margin-top: 2em;
 	h1 {
-		margin-top: 0;
+		margin-top: -0.5em;
 	}
 	.post,
 	.page {
@@ -223,12 +240,9 @@ $button-size: 1.5rem;
 		@include suffix(12,1);
 		margin-bottom: 2em;
 		@media #{$small} {
-			@include grid(12,8);
+			@include grid(12,9);
 			@include prefix(12,0);
 			@include suffix(12,0);
-		}
-		@media #{$x-large} {
-			@include grid(12,4.5);
 		}
 	}
 }
@@ -353,19 +367,41 @@ $button-size: 1.5rem;
 .article-author-side {
 	display: none;
 	.bio-photo {
-		max-width: 100px;
-		@include rounded(90px);
+		max-width: 110px;
+		@include rounded(150px);
 	}
 	@media #{$small} {
 		display: block;
-		@include grid(12,1);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
+		@include grid(12,2);
+		@include prefix(12,0.3);
+		@include suffix(12,0.3);
 		h3,
 		p,
 		.author-social {
 			display: block;
-			max-width: 90px;
+			max-width: 110px;
+		}
+		h3 {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+		.author-social {
+			margin-bottom: 5px;
+		}
+	}
+	@media #{$medium} {
+		display: block;
+		@include grid(12,1.5);
+		@include prefix(12,0.3);
+		@include suffix(12,0.3);
+		h3,
+		p,
+		.author-social {
+			display: block;
+			max-width: 110px;
 		}
 		h3 {
 			margin-top: 10px;
@@ -383,12 +419,8 @@ $button-size: 1.5rem;
 		.bio-photo,
 		p,
 		.author-social {
-			max-width: 90px;
+			max-width: 110px;
 		}
-	}
-	@media #{$x-large} {
-		@include grid(12,1.5);
-		@include prefix(12,2);
 	}
 }
 .article-author-bottom {
@@ -399,8 +431,8 @@ $button-size: 1.5rem;
 	.bio-photo {
 		float: left;
 		margin-right: 25px;
-		max-width: 70px;
-		@include rounded(90px);
+		max-width: 100px;
+		@include rounded(150px);
 	}
 	.author-social {
 		display: inline-block;
@@ -411,7 +443,7 @@ $button-size: 1.5rem;
 		.bio-photo,
 		p,
 		.author-social {
-			max-width: 100px;
+			max-width: 150px;
 		}
 	}
 }
