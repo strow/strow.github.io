@@ -3,11 +3,11 @@
 - title: About
   url: /about/
 
-- title: Updates
+- title: News
   url: /posts/
 
 - title: People
-  url: /people/
+  url: /people.html
 
 - title: Research
   url: /research/
@@ -15,5 +15,3 @@
 - title: Software
   url: /software/
 
-- title: Data
-  url: /data/

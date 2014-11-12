@@ -2,8 +2,8 @@
 
 title:            Atmospheric Spectroscopy Laboratory
 locale:           en_US
-#url:              http://strow.github.io
-url:              http://localhost:4000
+url:              http://strow.github.io
+#url:              http://localhost:4000
 
 
 # Jekyll configuration
@@ -34,8 +34,8 @@ owner:
   disqus-shortname: aslumbc
   twitter: 
   facebook: 
-  google:
-    plus: 
+  google: 
+    plus: u/0/114875109936617183653
     analytics: 
     verify: 
     ad-client: 

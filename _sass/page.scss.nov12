@@ -729,11 +729,3 @@ $button-size: 1.5rem;
 #goog-wm-sb {
 	@extend .btn;
 }
-figure {
-    display: table;
-}
-figcaption {
-	   display: table-caption;
-	   caption-side: bottom;
-}
-
