@@ -1,0 +1,19 @@
+language: ruby
+rvm:
+- 2.1
+script: "bundle exec jekyll build"
+
+branches:
+  only:
+  - master
+
+deploy:
+  provider: s3
+  access_key_id: AKIAIE6VXPFAEOLXEPMQ
+  secret_access_key: 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
+  skip_cleanup: true
+  bucket: "aslearth.com"
+  endpoint: "aslearth.com.s3-website-us-east-1.amazonaws.com"
+  region: us-east-1
+  acl: public_read
+  local-dir: _site
