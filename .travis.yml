@@ -12,12 +12,10 @@ deploy:
   provider: s3
   access_key_id: AKIAIT6QYRBBK7UKNRCQ
   secret_access_key:
-    secure: VuCiq1iYCDV7TG4BwVmeEZgt1H8tVDtqqNm5kRm3Z6rXaELwBPlm9klw8wATUgjZch7ZWeUl+LQ11HgCETfNrKD+yIpv9l5IYNSDoDwHvIpJaBWPLkBT9AtHSjpN+LQvZoh6H86mCt3Pbt9R/lvI+L1yDzL9bR5CGSJ/aLfzrjg=
+    secure: OvMzoSS16Wnc1rPo3dcpbJo863C/ljylg+gTpGVTP7QOLjMO+26jkQUKZ7nTWhj9nuDxpdsG8PktO3HAvzoMLIntr1vatPyJxkeuIQsfvbSsRkPNUf8DakuLS3AiHbQ3oP6UUXqNI8lUS7DJHulTFSj7kMSQbuZz1WQOW3/BwqU=
   skip_cleanup: true
   bucket: aslearth.com
   endpoint: aslearth.com.s3-website-us-east-1.amazonaws.com
   region: us-east-1
   acl: public_read
   local-dir: _site
-
-
