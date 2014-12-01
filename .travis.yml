@@ -10,7 +10,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 deploy:
   provider: s3
-  access_key_id: AKIAIE6VXPFAEOLXEPMQ
+  access_key_id: AKIAIT6QYRBBK7UKNRCQ
   secret_access_key:
     secure: VuCiq1iYCDV7TG4BwVmeEZgt1H8tVDtqqNm5kRm3Z6rXaELwBPlm9klw8wATUgjZch7ZWeUl+LQ11HgCETfNrKD+yIpv9l5IYNSDoDwHvIpJaBWPLkBT9AtHSjpN+LQvZoh6H86mCt3Pbt9R/lvI+L1yDzL9bR5CGSJ/aLfzrjg=
   skip_cleanup: true
