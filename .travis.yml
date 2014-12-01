@@ -10,9 +10,9 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 deploy:
   provider: s3
-  access_key_id: AKIAIT6QYRBBK7UKNRCQ
+  access_key_id: AKIAIAKJ37RL3SIUPG2Q
   secret_access_key:
-    secure: OvMzoSS16Wnc1rPo3dcpbJo863C/ljylg+gTpGVTP7QOLjMO+26jkQUKZ7nTWhj9nuDxpdsG8PktO3HAvzoMLIntr1vatPyJxkeuIQsfvbSsRkPNUf8DakuLS3AiHbQ3oP6UUXqNI8lUS7DJHulTFSj7kMSQbuZz1WQOW3/BwqU=
+    secure: TqACaBeuebRbn/uyde4yHcvbi8NTgBLGL8ZV6vUb8eAF1mNCZhjAVfeWmJ14T40NVsILMuyvyWiuQIhmxG+0SGLeB2Q7EdmhoDSr3O4VKAlfG7IrBukhC8zDmEV2qBxUOtNRTeJfpAHJyitWs6Cd+EhAjlKgPW7mZVae/pIwPRI=
   skip_cleanup: true
   bucket: aslearth.com
   endpoint: aslearth.com.s3-website-us-east-1.amazonaws.com
